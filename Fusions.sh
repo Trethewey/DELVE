@@ -2,6 +2,7 @@
 #=====================================================================
 # Christopher S. Trethewey, chris.s.trethewey{@outlook.com
 # Fusion detect pipline for PanLymphv2, argetted CAPP-seq, WES and WGS
+<<<<<<< HEAD
 # 2022
 #=====================================================================
 
@@ -46,6 +47,7 @@ GENOME=$3
    echo "BamDirectory = $2"
    echo "Genome version = $3"
 
+
 if [ $# -eq 0 ]
   then
 
@@ -80,6 +82,7 @@ perl /Delve/factera-v1.4.4/factera.pl \
 $DATADIR/${ID}_dD-RG-BQSR_FINAL.bam \
 /Delve/RESOURCE/$GENOME/exons.bed \
 /Delve/RESOURCE/genomes/$GENOME/*.fa.2bit
+
 
 echo ""
 echo 'completed running FACTERA v1.4.4 on sample' ${ID}
