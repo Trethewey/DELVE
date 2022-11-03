@@ -76,7 +76,7 @@ do
 
 echo 'running FACTERA v1.4.4 on sample' ${ID}
 
-perl /Delve/factera-v1.4.4/factera.pl \
+perl /Delve/programs/factera-v1.4.4/factera.pl \
 -r 10 -m 5 -s 2-c 10 \
 $DATADIR/${ID}_dD-RG-BQSR_FINAL.bam \
 /Delve/RESOURCE/$GENOME/exons.bed \
