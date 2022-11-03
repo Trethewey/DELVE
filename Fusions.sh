@@ -2,7 +2,6 @@
 #=====================================================================
 # Christopher S. Trethewey, chris.s.trethewey{@outlook.com
 # Fusion detect pipline for PanLymphv2, argetted CAPP-seq, WES and WGS
-<<<<<<< HEAD
 # 2022
 #=====================================================================
 
